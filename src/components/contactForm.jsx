@@ -96,16 +96,16 @@ const ContactForm = () => {
           <div className="bg-gray-900 p-6 rounded-lg text-left">
             <h3 className="text-xl font-bold">Join Our Community</h3>
             <div className="mt-4 grid grid-cols-2 gap-2">
-              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 cursor-pointer">
+              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-blue-500 hover:text-black cursor-pointer">
                 <FaFacebook className="mr-2" /> Facebook
               </button>
-              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 cursor-pointer">
+              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-blue-500 hover:text-black cursor-pointer">
                 <FaTwitter className="mr-2" /> Twitter
               </button>
-              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 cursor-pointer">
+              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-blue-500 hover:text-black cursor-pointer">
                 <FaDiscord className="mr-2" /> Discord
               </button>
-              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 cursor-pointer">
+              <button className="flex items-center justify-center p-3 bg-gray-800 text-white rounded-md hover:bg-blue-500 hover:text-black cursor-pointer">
                 <FaTelegram className="mr-2" /> Telegram
               </button>
             </div>
