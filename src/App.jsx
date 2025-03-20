@@ -10,6 +10,8 @@ import LiveStats from './components/liveStats'
 import WhyChooseUs from './components/whyChooseus'
 import ContactForm from './components/contactForm'
 import Footer from './components/footer'
+import SpinTheWheel from './components/spinTheWheel'
+
 
 function App() {
   
@@ -18,6 +20,7 @@ function App() {
     <>
       <LotteryLanding />
       <LotteryCountdown />
+      <SpinTheWheel />
       <WhyChooseUs />
       <HowItWorks />
       <LiveStats />

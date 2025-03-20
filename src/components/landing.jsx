@@ -9,11 +9,11 @@ const LotteryLanding = () => {
          
           <div className="flex items-center space-x-4">
           <ul className="flex space-x-6">
-            <li><a href="#home" className="hover:text-gray-400">Home</a></li>
-            <li><a href="#aboutus" className="hover:text-gray-400">About Us</a></li>
-            <li><a href="#services" className="hover:text-gray-400">Services</a></li>
-            <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
-            <li><a href="#faq" className="hover:text-gray-400">FAQ</a></li>
+            <li><a href="#home" className="hover:text-gray-400 active:text-red-600 active:underline">Home</a></li>
+            <li><a href="#aboutus" className="hover:text-gray-400 active:text-red-600 active:underline">About Us</a></li>
+            <li><a href="#services" className="hover:text-gray-400 active:text-red-600 active:underline">Games</a></li>
+            <li><a href="#contact" className="hover:text-gray-400 active:text-red-600 active:underline">Contact</a></li>
+            <li><a href="#faq" className="hover:text-gray-400 active:text-red-600 active:underline">FAQ</a></li>
           </ul>
             <button className="bg-red-600 px-4 py-2 text-white font-semibold rounded-lg hover:bg-red-700 cursor-pointer">
           Play Now
